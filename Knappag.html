@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+		<body>
+			<head>
+				<title> Knapp AG </title>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<style>
+						
+				body {
+					margin: 0px;
+					font-family: Arial, Helvetica, sans-serif
+				}
+
+				/* Header styles */
+				header {
+					background-color: #ecd05d;
+					padding: 10px 20px;
+					text-align: center;
+				}
+
+				/* Navigation bar styles */
+				nav {
+					background-color: #c6c4baed;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					padding: 10px 0;
+				}
+
+				nav ul {
+					list-style: none;
+					margin: 0;
+					padding: 0;
+					display: flex;
+				}
+
+				nav li {
+					margin: 0 15px;
+				}
+				/* Menu Items styling */
+				nav a {
+					color: white;
+					text-decoration: none;
+					font-size: 18px;
+					transition: color 0.3s;
+					font-weight: bolder;
+				}
+
+				nav a:hover {
+					color: #bd9b11;
+				}
+
+				 /* Reset bold font weight for all <ul> and <li> elements */
+				ul, li {
+					font-weight: normal;
+				}
+
+				/* Other existing styles */
+				.ul {
+					font-family: Arial, Helvetica, sans-serif;
+					color: black;
+					font-size: smaller;
+					margin-left: 200px;
+				}
+
+				/* Ordered List Styling */
+				.ol {
+					font-family: Arial, Helvetica, sans-serif;
+					font-weight: bold;
+					font-style: normal;
+					color: #d6b83f;
+					font-size: larger;
+				}
+
+				/* Calibri shortcut */
+				.font {
+					font-family:Arial, Helvetica, sans-serif;
+				}
+
+				/* Bold shortcut */
+				.bold {
+					font-weight: bold;
+				}
+
+				/* Normal Text shortcut */
+				.normal {
+					font-family: Arial, Helvetica, sans-serif;
+					font-weight: normal;
+				}
+						
+				/* Remove bold from headings */
+				h1, h2, h3, h4, h5, h6 {
+					font-weight: normal;
+					font-family: Arial, Helvetica, sans-serif;
+				}
+
+				/* Textbox */
+				.container {
+					display: flex;
+					gap: 10px; /* space between boxes */
+					justify-content: center;
+					padding: 20px; /*space between the box and the content inside (In diesem Fall Text) */
+					flex-wrap: wrap; /* makes it mobile-friendly */
+					margin-top: 50px; /*Space 50px from the top */
+					margin-bottom: 50px;
+				}
+
+				.textbox {
+					flex: 1;
+					min-width: 100px;
+					max-width: 200px;
+					padding: 30px;
+					background-color: #ebb81083;
+					border-radius: 10px;
+					box-shadow: 0 4px 8px rgba(0, 0, 0, 0.082);
+					font-family: Arial, sans-serif;
+					line-height: 1.5; /* Zeilenabstand */
+				}
+				.space {
+					margin-left: 200px;
+				}
+
+				p {
+					font-family: Arial, Helvetica, sans-serif;
+				}
+				
+				iframe {
+					max-width: 100%;
+					margin-left: 500px;
+				}
+
+			</style>
+			<body>
+  <!-- Navigation Bar -->
+  <header>
+    <h1 style="font-weight: bolder; color: #000000;">Knapp AG</h1>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="Knappag.html">Knapp AG</a></li>
+      <li><a href="Authorin.html">Developerin</a></li>
+    </ul>
+  </nav>
+
+			<!-- Einleitung-->
+			<h1 style="margin-bottom: 50px; font-weight: bolder; text-align: center; color: rgb(0, 0, 0); text-shadow: 2px 2px 4px rgb(157, 155, 155);">
+				KNAPP AG - EIN EINBLICK
+			</h1> <br>
+			<p style="font-size: larger; margin-left: 300px;"> Knapp AG konzentriert sich darauf logistische Probleme mit intelligenten Anlagensysteme zu lösen. <br>
+				Dadurch wird die Logistik leichter und effizienter.
+			</p>
+
+
+			<!-- Beginning of the listing
+			1. Branchen-->
+
+			<h3>
+				<ol class="ol" style="margin-top: 80px;">
+					<li style="margin-bottom: 30px; color: #d6b83f; font-weight: bold; margin-left: 200px; font-size: smaller;"> Branchen 
+						<ul class="ul">
+							<li>Fashion</li>
+							<li>Retail</li>
+							<li>Food Retail</li>
+							<li>Healthcare</li>
+							<li>Industry</li>
+							<li>Wholesale</li>
+						</ul>
+					</li>
+				</h3>
+			</ol>
+ 			
+			<!--Text boxes-->
+						<!-- 2. Robotik-->
+			<ol start="2">
+				<li class="space" style="margin-bottom: 30px; color: #d6b83f; font-weight: bold; margin-left: 200px; font-size: larger;"> Robotik </li>
+			</ol>
+			<div class="container">
+				<div class="textbox">
+					<h3 class="calibri" style="font-weight: bold; text-align: center;">Aerobots</h3>
+					<p>Aerobots sind intelligente Anlagensysteme, die mit einem Container Waren bis zu 35 KG innerhalb der Firma transportieren können. Sie können sich der Umgebung anpassen und sich flexibel bewegen.</p>
+				</div>
+				<div class="textbox">
+					<h3 style="font-weight: bold; text-align: center;">Pick-it-Easy Bot</h3>
+					<p>Das ermöglicht das aufheben und platzieren der Waren, sowie frische Produkte die im Einzelhandel verkauft werden, in deren geeigneten Plätze.</p>
+				</div>
+				<div class="textbox">
+					<h3 style="font-weight: bold; text-align: center;">Open shuttle fork</h3>
+					<p>Open shuttle Forks (fahrerlose Transport Systeme) sind intelligente und automatische Transporteure, die innerhalb der Firma- und auch direkt an Fahrzeuge- Waren bis zu 1.300 KG transportieren.</p>
+				</div>
+				</div>
+
+				<iframe width="555" height="312" src="https://www.youtube.com/embed/yASJkVZ93bc?list=TLGGcLjnylT5wqQwODA0MjAyNQ" title="KNAPP – Pick-it-Easy Robot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+			<!-- 3. Events und Programme-->
+						<ol start="3">
+							<li style="margin: bottom 30px;color: #d6b83f; font-weight: bold; margin-left: 200px; font-size: larger;"> Events und Programme
+							<ul class="ul">
+								<li>
+								Coding-Contest
+								</li>
+								<li>
+								Roboleague
+								</li>
+								<li>
+								Cosmofarma
+								</li>
+							</ul>
+						</li> <br>
+
+			<!-- 4. Nachhaltigkeit-->
+						<li style="margin: bottom 30px; color: #d6b83f; font-weight: bold; margin-left: 200px; font-size: larger;"> Nachhaltigkeit
+							<ul class="ul">
+								<li>
+									Now4tomorrow
+								</li>
+								<li>
+									SDG - Sustainable Development Goals
+								</li>
+								<li>
+									ESG: Environment-Social-Governance
+								</li>
+							</ul>
+						</li> <br>
+
+			<!-- 5. Karriere Angebote-->
+						<li style="margin: bottom 30px; color: #d6b83f; font-weight: bold; margin-left: 200px; font-size: larger;"> Karriere Angebote
+							<ul class="ul"> Arbeit <br> <br>
+								<li>
+									Administration & Facility
+								</li>
+								<li>
+									Kundenservice
+								</li>
+								<li>
+									Maschinenbau
+								</li>
+								<li>
+									Human Resources
+								</li>
+								<li>
+									IT & Software
+								</li>
+								<li>
+									Installation and Comissioning
+								</li>
+								<li>
+									Marketing & Sales
+								</li>
+								<li>
+									Produktion & Herstellung
+								</li>
+								<li>
+									Projekt Mangement
+								</li>
+								<li>
+									SAP BeraterIn
+								</li> <br>
+								
+								Lehre <br> <br>
+
+								<li>
+									MetalltechnikerIn
+								</li>
+								<li>
+									MechatronikerIn
+								</li>
+								<li>
+									ApplikationsentwicklerIn
+								</li>
+								<li>
+									Industriekauffrau/-mann 
+								</li>
+								<li>
+									InformationstechnologIn
+								</li>
+							</ul> <br>
+
+						</li>
+				</ol>
+			</h3>
+			<p style="text-align: center; margin-top: 50px;"> 08. April 2025 &nbsp; &nbsp;©  &nbsp; Aischa Bazina</p>
+
+		</body>

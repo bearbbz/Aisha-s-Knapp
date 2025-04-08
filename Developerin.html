@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+		<body>
+			<head>
+				<title> Developerin </title>
+				<meta charset="UTF-8">
+  				<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+				<style>
+ 
+ body {
+					margin: 0;
+					font-family: Arial, sans-serif;
+				}
+
+				/* Header styles */
+				header {
+					background-color: #ecd05d;
+					padding: 10px 20px;
+					text-align: center;
+				}
+
+				/* Navigation bar styles */
+				nav {
+					background-color: #c6c4baed;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					padding: 10px 0;
+				}
+
+				nav ul {
+					list-style: none;
+					margin: 0;
+					padding: 0;
+					display: flex;
+				}
+
+				nav li {
+					margin: 0 15px;
+				}
+				/* Menu Items styling */
+				nav a {
+					color: white;
+					text-decoration: none;
+					font-size: 18px;
+					transition: color 0.3s;
+					font-weight: bolder;
+				}
+
+				nav a:hover {
+					color: #bd9b11;
+				}
+
+				/* unordered List styling */
+				.ul {
+					font-family: 'Times New Roman', Times, serif;
+					font-weight: bold;
+					font-style: italic;
+					color: black;
+					font-size: smaller;
+				}
+
+				/* ordered list styling */
+				.ol {
+					font-family: 'Times New Roman', Times, serif;
+					font-weight: bold;
+					font-style: normal;
+					color: darkred;
+					font-size: larger;
+				}
+
+				/* Calibri shortcut */
+				.calibri {
+					font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+				}
+
+				/* Bold shortcut */
+				.bold {
+					font-weight: bold;
+				}
+
+				/* Normal Text shortcut */
+				.normal {
+					font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+					font-weight: normal;
+					font-style: normal;
+				}
+						
+				/* Remove bold from headings */
+				h1, h2, h3, h4, h5, h6 {
+					font-weight: normal;
+				}
+
+				/* Textbox */
+				.container {
+					display: flex;
+					gap: 20px; /* space between boxes */
+					justify-content: center;
+					padding: 20px; /*space between the box and the content inside (In diesem Fall Text) */
+					flex-wrap: wrap; /* makes it mobile-friendly */
+					margin-top: 50px; /*Space 50px from the top */
+				}
+
+				.textbox {
+					flex: 1;
+					min-width: 250px;
+					max-width: 400px;
+					padding: 30px;
+					background-color: #ebb81083;
+					border-radius: 10px;
+					box-shadow: 0 4px 8px rgba(0, 0, 0, 0.082);
+					font-family: Arial, sans-serif;
+					line-height: 1.5; /* Zeilenabstand */
+				}
+
+
+				/* Flex container for text and image */
+				.flex-container {
+					display: flex;
+					justify-content: space-between;
+					align-items: flex-start; /* Align the items at the top */
+					margin-top: 70px;
+					margin-left: 300px;
+					margin-right: 70px;
+					
+				}
+
+				/* Style for the image section */
+				.image-container {
+					max-width: 150px;
+					width: 100%;
+					margin-right: 300px;
+				}
+
+				.image-container img {
+					margin-right: 50px;
+					width: 100%;
+					height: auto;
+					border-radius: 8px;
+				}
+
+  				</style>
+			</head>
+			<body>
+
+			<!-- Navigation Bar -->
+			<header>
+				<h1 style="font-weight: bolder; color: #000000;">Knapp AG</h1>
+			</header>
+			<nav>
+				<ul>
+				<li><a href="Knappag.html">Knapp AG</a></li>
+				<li><a href="Authorin.html">Developerin</a></li>
+				</ul>
+			</nav>
+
+			 <!-- Page Content -->
+				<h1 style="font-family: Arial, Helvetica, sans-serif, Times, serif; font-size: 150%; margin-left: 300px; margin-top: 70px; margin-bottom: 50px;" class="bold"> Aischa Bazina </h1>
+			
+			<!-- Flex container to hold table and image -->
+  		  	<div class="flex-container">
+      
+			<!-- Text (Table) section -->
+      		<div class="text-container">
+        		<table style="font-family: Arial, Helvetica, sans-serif;">
+          			<tr>
+            			<td class="bold">Geburtsdatum: <br><br></td>
+            			<td>01.11.2004<br><br></td>
+          			</tr>
+          			<tr>
+            			<td class="bold">Geburtsort:<br><br></td>
+            			<td>Alexandrien, Ägypten<br><br></td>
+          			</tr>
+          			<tr>
+            			<td class="bold">Hobbies:<br><br></td>
+          			</tr>
+          			<tr>
+            			<td>Neues Lernen</td>
+          			</tr>
+          			<tr>
+            			<td>Bücher Lesen<br><br></td>
+          			</tr>
+          			<tr>
+            			<td class="bold">Vorhandene Fähigkeiten:<br><br></td>
+          			</tr>
+          			<tr>
+            			<td>HTML, CSS</td>
+          			</tr>
+          			<tr>
+						<td>Word, Powerpoint</td>
+					</tr>
+					<tr>
+						<td>Allgemeines Computer Wissen</td>
+					</tr>
+					<tr>
+						<td>Multitasking</td>
+					</tr>
+				</table>
+			</div>
+
+			<!-- Image section -->
+			<div class="image-container">
+				<img src="Mein Foto.jpg" alt="Ein Foto von Aischa Bazina">
+			</div>
+			</div>
+
+			<!--Textbox-->
+			<div class="container">
+				<div class="textbox">
+					<h3 class="calibri" style="font-weight: bold;">Warum hier?</h3>
+					<p>Die richtige Frage ist: Warum <b>nicht</b> hier? Mal angenommen ich bekomme die Lehrstelle: Ich kann extrem viel Wissen sowie Erfahrung in einer der besten Logistik Unternehmen der Welt sammeln und ein Teil eines großen Teams werden, mit Mitglieder, die sich für die Nachhaltigkeit ihrer Umgebung und auf die Gleichbehandlung anderen stark achten. </p>
+				</div>
+				<div class="textbox">
+					<h3 style="font-weight: bold;" class="calibri">Warum ich?</h3>
+					<p>Ich bin überzeugt, dass ich für die Stelle perfekt bin, weil ich die Arbeit sehr schätze und einen großen Wert darauf lege. Ich glaube nicht, dass meine mangelnden Kenntnisse mich hindern, weil ich weiß, dass, wenn ich die Stelle bekomme, alles dafür geben werde, mir selbstständig Wissen anzueignen und die Erwartungen der Firma nicht zu enttäuschen, sondern höher zu streben und sie, sowohl auch mich selbst, zu überraschen. </p>
+				</div>
+				</div>
+
+				<p style="text-align: center; margin-top: 50px;"> 08. April 2025 &nbsp; &nbsp;©  &nbsp; Aischa Bazina</p>
+		
+		</body>
